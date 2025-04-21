@@ -1,0 +1,117 @@
+/* 全局边框样式 */
+.container-border {
+  position: relative;
+  padding: 1rem 2rem; /* 调整内边距，根据需求修改 */
+  width: 100%;
+
+  border: 1px solid #5893a6; /* 蓝绿色边框 */
+  box-sizing: border-box; /* 确保宽度包含边框 */
+
+  /* 左上角点缀 */
+  &::before {
+    content: '';
+    position: absolute;
+    width: 0.375rem; /* 6px */
+    height: 0.375rem;
+    background-color: #ffda67; /* 黄色装饰 */
+    top: 0;
+    left: 0;
+  }
+
+  /* 右上角点缀 */
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0.375rem; /* 6px */
+    height: 0.375rem;
+    background-color: #ffda67;
+    top: 0;
+    right: 0;
+  }
+
+  /* 左下角点缀 */
+  .corner-left-bottom::before {
+    content: '';
+    position: absolute;
+    width: 0.375rem; /* 6px */
+    height: 0.375rem;
+    background-color: #ffda67;
+    bottom: 0;
+    left: 0;
+  }
+
+  /* 右下角点缀 */
+  .corner-right-bottom::before {
+    content: '';
+    position: absolute;
+    width: 0.375rem; /* 6px */
+    height: 0.375rem;
+    background-color: #ffda67;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+/* global.scss 或者独立的组件样式文件中 */
+
+.dv-border-box12 {
+  position: relative;
+  padding: 16px; /* 内边距，可根据需要调整 */
+  background-color: #f9f9f9; /* 浅色背景 */
+  border: 1px solid #5369e8; /* 浅蓝色边框 */
+  border-radius: 8px; /* 圆角 */
+  overflow: hidden;
+
+  /* 小弧线装饰 */
+  &::before,
+  &::after,
+  .corner-left-top::before,
+  .corner-right-top::before,
+  .corner-left-bottom::before,
+  .corner-right-bottom::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #2eecff; /* 小弧线的颜色 */
+    border-radius: 50%; /* 设置圆形，便于制作弧线 */
+  }
+
+  /* 顶左角小弧线 */
+  &::before {
+    top: -8px;
+    left: -8px;
+    transform: rotate(-45deg); /* 将圆形变成小弧线 */
+  }
+
+  /* 顶右角小弧线 */
+  .corner-right-top::before {
+    top: -8px;
+    right: -8px;
+    transform: rotate(45deg); /* 将圆形变成小弧线 */
+  }
+
+  /* 底右角小弧线 */
+  &::after {
+    bottom: -8px;
+    right: -8px;
+    transform: rotate(45deg); /* 将圆形变成小弧线 */
+  }
+
+  /* 底左角小弧线 */
+  .corner-left-bottom::before {
+    bottom: -8px;
+    left: -8px;
+    transform: rotate(-45deg); /* 将圆形变成小弧线 */
+  }
+}
+/* global.scss */
+.header-title {
+  background-color: rgba(7, 207, 194, 0.48);  /* 设置背景颜色 */
+  //display: inline-flex;
+  margin-top: 0;
+  padding: 10px;               /* 设置内边距 */
+  color: white;                /* 设置文字颜色 */
+  text-align: center;          /* 可选，居中文本 */
+  font-size: 13px;             /* 可选，设置字体大小 */
+}

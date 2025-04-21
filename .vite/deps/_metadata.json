@@ -1,0 +1,88 @@
+{
+  "hash": "18804d4f",
+  "configHash": "2e9bde32",
+  "lockfileHash": "512c5286",
+  "browserHash": "707a0601",
+  "optimized": {
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "d2706a56",
+      "needsInterop": false
+    },
+    "echarts": {
+      "src": "../../node_modules/echarts/index.js",
+      "file": "echarts.js",
+      "fileHash": "b9c670c4",
+      "needsInterop": false
+    },
+    "echarts/charts": {
+      "src": "../../node_modules/echarts/charts.js",
+      "file": "echarts_charts.js",
+      "fileHash": "9a46b006",
+      "needsInterop": false
+    },
+    "echarts/components": {
+      "src": "../../node_modules/echarts/components.js",
+      "file": "echarts_components.js",
+      "fileHash": "1980b2d6",
+      "needsInterop": false
+    },
+    "echarts/core": {
+      "src": "../../node_modules/echarts/core.js",
+      "file": "echarts_core.js",
+      "fileHash": "b6fea946",
+      "needsInterop": false
+    },
+    "echarts/renderers": {
+      "src": "../../node_modules/echarts/renderers.js",
+      "file": "echarts_renderers.js",
+      "fileHash": "de157636",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "aebd6269",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "e2367e21",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YW6HVGMB": {
+      "file": "chunk-YW6HVGMB.js"
+    },
+    "chunk-3VQUYT6G": {
+      "file": "chunk-3VQUYT6G.js"
+    },
+    "chunk-JHDK7QAI": {
+      "file": "chunk-JHDK7QAI.js"
+    },
+    "chunk-YIAT7HTU": {
+      "file": "chunk-YIAT7HTU.js"
+    },
+    "chunk-RXCYVPYF": {
+      "file": "chunk-RXCYVPYF.js"
+    },
+    "chunk-ZJLUDFCV": {
+      "file": "chunk-ZJLUDFCV.js"
+    },
+    "chunk-2BLO432R": {
+      "file": "chunk-2BLO432R.js"
+    },
+    "chunk-3USBSJ3N": {
+      "file": "chunk-3USBSJ3N.js"
+    },
+    "chunk-N6H6QCNQ": {
+      "file": "chunk-N6H6QCNQ.js"
+    },
+    "chunk-ZS7NZCD4": {
+      "file": "chunk-ZS7NZCD4.js"
+    }
+  }
+}
